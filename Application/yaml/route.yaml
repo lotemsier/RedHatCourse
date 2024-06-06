@@ -1,0 +1,12 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name:  lotem_sier-hello-world
+spec:
+  to:
+    kind: Service
+    name:  lotem_sier-hello-world
+    weight: 100
+  port:
+    targetPort: 8080
+  wildcardPolicy: None
