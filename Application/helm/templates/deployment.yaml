@@ -12,6 +12,9 @@ spec:
       labels:
         app: {{ .Chart.Name }}
     spec:
+      volumeMounts:
+        - name: index-html
+          mountPath: /tmp/html
       containers:
         - resources: {}
           terminationMessagePath: /dev/termination-log
