@@ -2,7 +2,7 @@ ReplicaNumber: 3
 
 containers:
   containerPort: 8080
-  image: 'quay.io/user19/my_app:v2'
+  image: 'quay.io/lotem_sier/my_app:v2'
   tag: 'base'
 
 service:
