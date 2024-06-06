@@ -4,7 +4,7 @@ description: A Helm chart for Kubernetes
 type: application
 dependencies:
   - name: user19-hello-world:1.0.0
-    repository: oci://ghcr.io/lotemsier/helm/
+    repository: oci://ghcr.io/lotemsier/helm
     version: "1.0.0"
     alias: deploy1
 version: 1.0.0
