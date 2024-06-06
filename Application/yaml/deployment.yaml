@@ -1,16 +1,16 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  name: lotem_sier-hello-world
+  name: user19-hello-world
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: lotem_sier-hello-world
+      app: user19-hello-world
   template:
     metadata:
       labels:
-        app: lotem_sier-hello-world
+        app: user19-hello-world
     spec:
       containers:
         - resources: {}

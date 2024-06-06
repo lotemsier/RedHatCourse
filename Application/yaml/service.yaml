@@ -1,11 +1,11 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: lotem_sier-hello-world
+  name: user19-hello-world
 spec:
   ports:
     - protocol: TCP
       port: 8080
       targetPort: 8080
   selector:
-    app: lotem_sier-hello-world
+    app: user19-hello-world
